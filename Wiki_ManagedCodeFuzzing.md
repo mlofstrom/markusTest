@@ -18,7 +18,7 @@ managed). A discussion of these topics can be found below.
 |                                                                                  | Partially -Trusted Parsed data’s source and author are weakly authenticated; data integrity is unknown | I: EOP, DOS S: Important | I: DOS S: Moderate  |
 |                                                                                  | Untrusted Source, author, and integrity of parsed data are unknown                                     | I: EOP, DOS S: Critical  | I: DOS S: Moderate  |
 
-# Code, Data Trust, and Application Types
+# xCode, Data Trust, and Application Types
 
 These three attributes of a given computer program are generally sufficient to
 determining its code security risk, and therefore the utility of fuzz testing
