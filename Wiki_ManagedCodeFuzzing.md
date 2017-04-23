@@ -18,15 +18,13 @@ managed). A discussion of these topics can be found below.
 |                                                                                  | Partially -Trusted Parsed data’s source and author are weakly authenticated; data integrity is unknown | I: EOP, DOS S: Important | I: DOS S: Moderate  |
 |                                                                                  | Untrusted Source, author, and integrity of parsed data are unknown                                     | I: EOP, DOS S: Critical  | I: DOS S: Moderate  |
 
-Code, Data Trust, and Application Types
-=======================================
+# Code, Data Trust, and Application Types
 
 These three attributes of a given computer program are generally sufficient to
 determining its code security risk, and therefore the utility of fuzz testing
 (defined below).
 
-Code Type: Managed v. Native
-----------------------------
+## Code Type: Managed v. Native
 
 **Managed code** is defined as source code whose execution requires and occurs
 in the context of a virtualized environment – such as the .NET Common Language
@@ -55,8 +53,7 @@ cases:
 -   Use of the [unsafe](https://msdn.microsoft.com/en-us/library/chfa2zb8.aspx)
     keyword
 
-Applications: Service v. Desktop 
----------------------------------
+## Applications: Service v. Desktop 
 
 To oversimplify, a **desktop application** (console or GUI) is launched as
 needed by a user; a **service** (or server application) is designed to start and
