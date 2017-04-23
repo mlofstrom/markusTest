@@ -20,6 +20,10 @@ managed). A discussion of these topics can be found below.
 
 # xCode, Data Trust, and Application Types
 
+Code, Data Trust, and Application Types
+========================================
+
+
 These three attributes of a given computer program are generally sufficient to
 determining its code security risk, and therefore the utility of fuzz testing
 (defined below).
