@@ -10,7 +10,7 @@ Springfield based on target type, data trust, and code type (native versus
 managed). A discussion of these topics can be found below.
 
 <table >
-<tr><td style="background:red;">1</td><td>2</td><td>3</td></tr>
+<tr><td style="background-color:red;">1</td><td>2</td><td>3</td></tr>
 <tr><td>4</td><td>5</td><td>6</td></tr>
 </table>
 
