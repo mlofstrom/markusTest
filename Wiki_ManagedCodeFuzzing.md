@@ -9,10 +9,10 @@ security severity (“S:”) of bugs identifiable by the fuzzers included in Pro
 Springfield based on target type, data trust, and code type (native versus
 managed). A discussion of these topics can be found below.
 
-| Heading 1 | Heading 2 | Heading 3 |
-| --------- | :-------: | --------: |
-            | R2C2      | R2C3      |
-| R3C1      | R3C2      | R3C3      |
+<table>
+<tr><td>1</td><td>2</td><td>3</td></tr>
+<tr><td>4</td><td>5</td><td>6</td></tr>
+</table>
 
 
 | Target Type                                                                      | Data Trust                                                                                             | Native                   | Managed             |
