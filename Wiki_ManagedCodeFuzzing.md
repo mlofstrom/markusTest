@@ -290,10 +290,10 @@ We offer the following recommendations regarding fuzzing:
 
 -   Especially if they have not been previously fuzzed
 
---   Especially if they were implemented without the rigorous use of static
+    -   Especially if they were implemented without the rigorous use of static
     analysis
 
---   Especially if they are in a sensitive or high-business-impact application or
+    -   Especially if they are in a sensitive or high-business-impact application or
     service
 
 -   Whenever the parser logic undergoes significant churn
