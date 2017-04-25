@@ -9,6 +9,11 @@ security severity (“S:”) of bugs identifiable by the fuzzers included in Pro
 Springfield based on target type, data trust, and code type (native versus
 managed). A discussion of these topics can be found below.
 
+| Heading 1 | Heading 2 | Heading 3 |
+            | R2C2      | R2C3      |
+| R3C1      | R3C2      | R3C3      |
+
+
 | Target Type                                                                      | Data Trust                                                                                             | Native                   | Managed             |
 |----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|--------------------------|---------------------|
 | Service – 0 Click (Network listener like web service, COM server, sockets, etc.) | Trusted Parsed data’s source and author are strongly authenticated; data integrity is verified         | I: EOP, DOS S: Moderate  | I: DOS S: Low       |
